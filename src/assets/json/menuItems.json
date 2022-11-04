@@ -1,0 +1,71 @@
+{
+    "menuItems": [
+        {
+            "id": 0,
+            "title": "仪表盘",
+            "icon": "fa fa-tachometer fa-lg",
+            "chip": "new",
+            "link": "/dashboard"
+        },
+        {
+            "id": 1,
+            "title": "评论管理",
+            "icon": "fa fa-commenting-o fa-lg",
+            "chip": "6",
+            "link": "/dashboard"
+        },      
+        {
+            "id": 2,
+            "title": "图片管理",
+            "icon": "fa fa-image fa-lg",
+            "chip": "new",
+            "link": "/dashboard"
+        },
+        {
+            "id": 4,
+            "title": "论坛管理",
+            "icon": "fa fa-newspaper-o fa-lg",
+            "chip": "new",
+            "link": "/dashboard",
+            "children": [               
+                {
+                    "id": 42,
+                    "title": "话题管理",
+                    "icon": "fa fa-pencil-square-o fa-lg",
+                    "chip": "new",
+                    "link": "/dashboard/topic_manager"
+                },
+                {
+                    "id": 43,
+                    "title": "评论管理",
+                    "icon": "fa fa-commenting-o fa-lg",
+                    "chip": "new",
+                    "link": "/dashboard/comment_manager"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "权限管理",
+            "icon": "fa fa-user-secret fa-lg",
+            "chip": "new",
+            "link": "/dashboard",
+            "children": [
+                {
+                    "id": 8,
+                    "title": "角色管理",
+                    "icon": "fa fa-id-card-o fa-lg",
+                    "chip": "new",
+                    "link": "/dashboard"
+                },
+                {
+                    "id": 9,
+                    "title": "用户管理",
+                    "icon": "fa fa-users fa-lg",
+                    "chip": "new",
+                    "link": "/dashboard"
+                }
+            ]
+        }
+    ]
+}

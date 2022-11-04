@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+ * spacer 与 horiz-container  或 vertical-container 配合，
+ * 实现水平或垂直方向将后继元素挤到最后 
+*/
+.horiz-container {
+    /* 使用弹性布局  */
+    display: flex;
+    /* 主轴方向: 从左到右  */
+    flex-flow: row;
+    width: 100%;
+}
+
+.vertical-container {
+    /* 使用弹性布局  */
+    display: flex;
+    /* 主轴方向: 从上到下 */
+    flex-flow: column;
+    width: 100vh;
+}
+
+
+.spacer {
+    /* 在弹性布局中占去所有剩余空间，实现将后继元素挤到末尾   */
+    flex: 1;
+}
+
+/* 通用外边距样式，值 为 m 后面的数字乘以 4  */
+.m-1 {
+    margin: 4px;
+}
+
+.m-2 {
+    margin: 8px;
+}
+
+.m-3 {
+    margin: 12px;
+}
+
+.m-4 {
+    margin: 16px;
+}
+
+.m-5 {
+    margin: 20px;
+}
+
+/* m：margin; x: 水平方向，即：left 和 right */
+.mx-1 {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.mx-2 {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.mx-3 {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.mx-4 {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.mx-5 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* m：margin; y: 垂直方向，即：top 和 bottom */
+.my-1 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.my-2 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.my-3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.my-4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.my-5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* 通用内边距样式，值 为 p 后面的数字乘以 4  */
+.p-1 {
+    padding: 4px;
+}
+
+.p-2 {
+    padding: 8px;
+}
+
+.p-3 {
+    padding: 12px;
+}
+
+.p-4 {
+    padding: 16px;
+}
+
+.p-5 {
+    padding: 20px;
+}
